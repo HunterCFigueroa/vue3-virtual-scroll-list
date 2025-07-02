@@ -4,6 +4,7 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 lerna-debug.log*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
@@ -50,6 +51,9 @@ typings/
 # Optional npm cache directory
 .npm
 
+# pnpm cache directory
+.pnpm-store
+
 # Optional eslint cache
 .eslintcache
 
@@ -64,6 +68,9 @@ typings/
 
 # Output of 'npm pack'
 *.tgz
+
+# pnpm files
+.pnpm-debug.log*
 
 # Yarn Integrity file
 .yarn-integrity
@@ -80,7 +87,6 @@ typings/
 
 # Nuxt.js build / generate output
 .nuxt
-dist
 
 # Gatsby files
 .cache/
