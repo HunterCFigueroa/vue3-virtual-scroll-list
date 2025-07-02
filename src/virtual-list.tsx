@@ -205,6 +205,7 @@ export default defineComponent({
           if (typeof uniqueKey === 'string' || typeof uniqueKey === 'number') {
             slots.push(
               <Item
+                key={uniqueKey}
                 index={index}
                 tag={itemTag}
                 event={EVENT_TYPE.ITEM}
